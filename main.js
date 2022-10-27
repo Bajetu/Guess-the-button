@@ -14,8 +14,7 @@ for (let i = 0; i < n; ++i) {
     buton.addEventListener("click", onClick);
     buton.addEventListener("click", function onClick() {
     buton.style.backgroundColor = "blue";
-    buton.style.color = 'white';
     });
-    buton.style.height = '200px';
-    buton.style.width= '200px';
+    buton.style.height = '150px';
+    buton.style.width= '150px';
 }
