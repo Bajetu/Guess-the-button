@@ -12,9 +12,6 @@ for (let i = 0; i < n; ++i) {
     buton.id = i;
     buton.innerText = "Click on me!";
     buton.addEventListener("click", onClick);
-    buton.addEventListener("click", function onClick() {
-    buton.style.backgroundColor = "blue";
-    });
     buton.style.height = '150px';
     buton.style.width= '150px';
 }
