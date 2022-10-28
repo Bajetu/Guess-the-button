@@ -4,6 +4,8 @@ const onClick = function() {
     winningButton = winningButton ? winningButton : Math.floor(Math.random() * n);
     if (winningButton == this.id) {
         alert ("Congratulation! You have guessed the button!");
+    } else {
+        alert ("This is not the right button, keep trying!");
     }
 }
 for (let i = 0; i < n; ++i) {
